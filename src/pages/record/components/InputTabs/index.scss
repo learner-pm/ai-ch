@@ -1,0 +1,33 @@
+.tabs {
+  display: flex;
+  justify-content: space-around;
+  padding: 20rpx 40rpx;
+  background: #fff;
+
+  .tab {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28rpx;
+    color: #666;
+    position: relative;
+    padding: 0 20rpx;
+
+    &.active {
+      color: #07C160;
+      font-weight: normal;
+
+      &::after {
+        content: '';
+        position: absolute;
+        bottom: -20rpx;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 32rpx;
+        height: 4rpx;
+        background: #07C160;
+        border-radius: 2rpx;
+      }
+    }
+  }
+} 

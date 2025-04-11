@@ -1,0 +1,40 @@
+.result-card {
+  background: #fff;
+  padding: 24rpx;
+
+  .result-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16rpx 0;
+
+    .item-left {
+      display: flex;
+      align-items: center;
+
+      .icon {
+        font-size: 36rpx;
+        margin-right: 12rpx;
+      }
+
+      .label {
+        font-size: 32rpx;
+        color: #333;
+        margin-right: 8rpx;
+      }
+
+      .value {
+        font-size: 32rpx;
+        color: #333;
+      }
+    }
+
+    .edit-btn {
+      font-size: 28rpx;
+      color: #666;
+      background: #F7F7F7;
+      padding: 8rpx 20rpx;
+      border-radius: 8rpx;
+    }
+  }
+} 

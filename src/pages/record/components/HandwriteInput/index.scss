@@ -1,0 +1,25 @@
+.handwrite-input {
+  width: 100%;
+  height: 200rpx;
+  background: white;
+  border-radius: 20rpx;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #8E8E93;
+  font-size: 28rpx;
+  box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.04);
+  padding: 40rpx;
+
+  Text {
+    font-size: 28rpx;
+    color: #8E8E93;
+    margin-bottom: 12rpx;
+  }
+
+  .tip {
+    font-size: 24rpx;
+    color: #8E8E93;
+  }
+} 
